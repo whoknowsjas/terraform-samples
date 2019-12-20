@@ -1,0 +1,17 @@
+## To see all available configs, please check the documentation
+## https://github.com/TerraHubCorp/terrahub/tree/master/docs
+## project config
+project:
+  name: 'whoknowsjas/terraform-samples'
+  code: '6f7fe71b'
+  include:
+    - '.'
+  exclude:
+    - '**/.terraform/**'
+    - '**/node_modules/**'
+    - '**/.git/**'
+
+## terraform config
+terraform:
+  varFile:
+    - 'default.tfvars'
